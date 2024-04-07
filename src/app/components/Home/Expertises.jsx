@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Expertises() {
   return (
     <section>
-      <h1 className="text-white font-mPlusBlack text-[2rem] lg:text-[3rem] text-center my-[0.5rem]">
+      <h1 className="text-white font-mPlusBold tracking-widest text-[2rem] lg:text-[3rem] text-center my-[0.5rem]">
         NOS EXPERTISES
       </h1>
       <div className="flex flex-wrap lg:flex-row px-[0.5rem] lg:px-[1rem] gap-[0.5rem] lg:gap-[1rem]">
