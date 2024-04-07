@@ -13,10 +13,8 @@
 }
 .scrolled {
   transition: all 0.3s ease;
-  backdrop-filter: blur(55px);
-  background-color: #231f207b;
+  backdrop-filter: blur(10px);
 }
-
 .nav {
   width: 90%;
   font-family: "MPLUS1p-Bold";
@@ -33,7 +31,6 @@
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
-
 .headerLogo {
   width: auto;
   height: 3rem;
@@ -43,7 +40,6 @@
 .headerLogo:hover {
   filter: drop-shadow(0px 0px 2px #df0a14);
 }
-
 .nav__item {
   transition: all 0.3s ease;
   font-size: 1.2rem;
@@ -57,7 +53,7 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem 1rem 1rem 0rem;
   border-radius: 1rem;
   /* background: #333333; */
   background: transparent;
@@ -81,7 +77,12 @@
 .dropdownItem:hover {
   color: #df0a14;
 }
+/* 
 
+
+
+
+*/
 @media screen and (max-width: 800px) {
   .header {
     position: sticky;
@@ -98,7 +99,6 @@
   }
   .scrolled {
     transition: all 0.3s ease;
-    background-color: #231f205c;
     border-radius: 50rem;
   }
   .nav {
@@ -192,10 +192,6 @@
     padding: 1rem 1rem 1rem 1rem;
     margin-top: 1rem;
     border-radius: 1rem;
-    background: #333333;
-    /* background: transparent; */
-    /* backdrop-filter: blur(55px); */
-    transform: translateY(-10px);
     transition: opacity 0.3s ease, transform 0.3s ease;
   }
   .nav__item:hover .dropdownMenu {
@@ -208,7 +204,12 @@
     transition: all 0.3s ease;
   }
 }
+/* 
 
+
+
+
+*/
 /*! TABLETTE */
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .header {
@@ -320,10 +321,6 @@
     padding: 1rem 1rem 1rem 1rem;
     margin-top: 1rem;
     border-radius: 1rem;
-    background: #333333;
-    /* background: transparent; */
-    /* backdrop-filter: blur(55px); */
-    transform: translateY(-10px);
     transition: opacity 0.3s ease, transform 0.3s ease;
   }
   .nav__item:hover .dropdownMenu {
