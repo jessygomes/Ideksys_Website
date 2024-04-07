@@ -8,7 +8,7 @@ export default function Services() {
         href="/surete"
         className="flex flex-col justify-center items-center gap-[0.5rem] lg:gap-[1rem] lg:flex-[3] sm:flex-[3] h-[3.5rem] sm:h-[6rem] lg:h-[10rem] w-full rounded-2xl lg:rounded-3xl overflow-hidden bg-gris-case"
       >
-        <h2 className=" font-mPlusBold text-white lg:text-[2rem]">
+        <h2 className=" font-mPlusBold text-white lg:text-[1.8rem]">
           NOS SERVICES
         </h2>
       </Link>
