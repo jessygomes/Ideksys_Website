@@ -9,7 +9,7 @@ export default function Homepage() {
       <div className="">
         <Expertises />
       </div>
-      <div className="mt-[1rem] lg:mt-[2rem]">
+      <div className="mt-[0.5rem] lg:mt-[1rem]">
         <Services />
       </div>
     </div>
