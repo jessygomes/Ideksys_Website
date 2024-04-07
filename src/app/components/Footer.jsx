@@ -13,9 +13,9 @@ export default function Footer() {
   return (
     <div>
       <footer className="flex flex-wrap lg:flex-row px-[0.5rem] lg:px-[1rem] gap-[0.5rem] lg:gap-[1rem]">
-        <div className="flex flex-col justify-center items-center gap-[0.5rem] lg:gap-[1rem] h-[15rem] lg:h-[18rem] sm:flex-1 w-full rounded-2xl lg:rounded-3xl overflow-hidden bg-gris-case">
-          <div className="flex flex-col justify-center items-center gap-[1rem]">
-            <p className=" font-mPlusRegular text-white">
+        <div className="flex flex-col justify-center items-center gap-[0.5rem] lg:gap-[1rem] h-[10rem] sm:h-[15rem] lg:h-[18rem] sm:flex-1 w-full rounded-2xl lg:rounded-3xl overflow-hidden bg-gris-case">
+          <div className="flex justify-center items-center gap-[1rem]">
+            <p className=" font-mPlusRegular text-white text-[0.8rem]">
               Télécharger notre brochure
             </p>
             <a href="" download={true}>
@@ -23,10 +23,10 @@ export default function Footer() {
                 icon={faDownload}
                 size="2x"
                 className="text-white transition-all duration-200 ease-in-out"
-              />{" "}
+              />
             </a>
           </div>
-          <p className="text-center font-mPlusRegular text-white">
+          <p className="text-center font-mPlusRegular text-white text-[0.8rem]">
             Suivez-nous sur les réseaux sociaux
           </p>
           <div className="flex gap-[1rem] w-auto">
@@ -59,60 +59,69 @@ export default function Footer() {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center gap-[0.5rem] lg:gap-[1rem] h-[15rem] lg:h-[18rem] sm:flex-1 w-full rounded-2xl lg:rounded-3xl overflow-hidden bg-gris-case">
-          <div className="h-[4.5rem] lg:h-[6rem] w-auto">
+        <div className="flex flex-col justify-center items-center gap-[0.5rem] lg:gap-[1rem] h-[10rem] sm:h-[15rem] lg:h-[18rem] sm:flex-1 w-full rounded-2xl lg:rounded-3xl overflow-hidden bg-gris-case">
+          <div className="h-[3rem] sm:h-[4.5rem] lg:h-[6rem] w-auto">
             <Image
-              className="w-auto h-[4.5rem] object-cover mx-auto lg:w-auto lg:h-[6rem]"
+              className="w-auto h-[3rem] object-cover mx-auto sm:h-[4.5rem] lg:w-auto lg:h-[6rem]"
               src="/Logo/ideksys_white.png"
               width={400}
               height={400}
               alt="Logo Ideksys"
             />
           </div>
-          <p className=" font-mPlusRegular text-white text-center">
+          <p className=" font-mPlusRegular text-white text-center text-[0.8rem]">
             8 rue du Bois Sauvage <br /> 91000 Evry-Courcouronnes <br /> Tél :
             01.09.09.09.09 <br /> Mail : ideksys@contact.fr
           </p>
         </div>
-        <div className="flex flex-col justify-center items-center gap-[0.5rem] lg:gap-[1rem] h-[15rem] lg:h-[18rem] sm:flex-1 w-full rounded-2xl lg:rounded-3xl overflow-hidden bg-gris-case">
+        <div className="flex flex-row sm:flex-col justify-center items-center gap-[1rem] lg:gap-[1rem] h-[10rem] sm:h-[15rem] lg:h-[18rem] sm:flex-1 w-full rounded-2xl lg:rounded-3xl overflow-hidden bg-gris-case">
           <div className="text-center">
-            <p className="text-white font-mPlusBlack">PLAN DU SITE</p>
+            <p className="text-white font-mPlusBlack text-[0.8rem]">
+              PLAN DU SITE
+            </p>
             <Link className="" href="/surete">
-              <p className=" font-mPlusRegular text-white hover:text-bleu-surete">
+              <p className=" font-mPlusRegular text-white text-[0.8rem] hover:text-bleu-surete">
                 Sûreté
               </p>
             </Link>
             <Link className="" href="/securité-incendie">
-              <p className=" font-mPlusRegular text-white hover:text-rouge-incendie">
+              <p className=" font-mPlusRegular text-white text-[0.8rem] hover:text-rouge-incendie">
                 Sécurité Incendie
               </p>
             </Link>
             <Link className="" href="/eclairage-de-securite">
-              <p className=" font-mPlusRegular text-white hover:text-vert-securite">
+              <p className=" font-mPlusRegular text-white text-[0.8rem] hover:text-vert-securite">
                 Eclairage de sécurité
               </p>
             </Link>
           </div>
           <div className="text-center">
-            <p className="text-white font-mPlusBlack">ANNEXES</p>
+            <p className="text-white font-mPlusBlack text-[0.8rem]">ANNEXES</p>
+            <Link className="hover:text-rouge-incendie" href="/contactez-nous">
+              <p className=" font-mPlusRegular text-[0.8rem] text-white">
+                Contactez-nous
+              </p>
+            </Link>
             <Link
               className="hover:text-rouge-incendie"
               href="/mentions-legales"
             >
-              <p className=" font-mPlusRegular text-white">Mentions légales</p>
+              <p className=" font-mPlusRegular text-[0.8rem] text-white">
+                Mentions légales
+              </p>
             </Link>
             <Link
               className="hover:text-rouge-incendie"
               href="/politique-de-confidentialite"
             >
-              <p className=" font-mPlusRegular text-white">
+              <p className=" font-mPlusRegular text-[0.8rem] text-white">
                 Politique de confidentialité
               </p>
             </Link>
           </div>
         </div>
       </footer>
-      <p className="text-[0.8rem] p-[0.5rem] font-rubikLight text-white text-center font-mPlusLight">
+      <p className="text-[0.6rem] sm:text-[0.8rem] p-[0.5rem] font-rubikLight text-white text-center font-mPlusLight">
         Copyright © 2024 - Ideksys - All Rights Reserved - Website by :{" "}
         <Link
           target="_blank"
