@@ -2,13 +2,14 @@ import ImageHome from "./ImageHome";
 import Expertises from "./Expertises";
 import Services from "./Services";
 import SavoirFaire from "./SavoirFaire";
+import { TestCard } from "./TestCard";
 
 export default function Homepage() {
   return (
     <div>
       <ImageHome />
       <div className="">
-        <Expertises />
+        <TestCard />
       </div>
       <div className="mt-[0.5rem] lg:mt-[1rem]">
         <Services />

@@ -39,6 +39,10 @@ const itemNavbar = [
     text: "Contactez-nous",
     link: "/contactez-nous",
   },
+  {
+    text: "Login",
+    link: "/api/auth/signin",
+  },
 ];
 
 export default function Navbar() {
