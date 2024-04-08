@@ -14,7 +14,7 @@ export default function Services() {
       </Link>
       <Link
         href="/surete"
-        className="flex px-3 sm:flex-col justify-center items-center gap-[0.5rem] sm:gap-[0.2rem] lg:gap-[1rem] sm:flex-[2] lg:flex-[2] h-[3.5rem] sm:h-[6rem] lg:h-[10rem] w-[48%] rounded-2xl lg:rounded-3xl overflow-hidden bg-gris-case"
+        className="flex px-3 sm:flex-col justify-center items-center gap-[0.5rem] sm:gap-[0.2rem] lg:gap-[1rem] sm:flex-[2] lg:flex-[2] h-[3.5rem] sm:h-[6rem] lg:h-[10rem] w-[48%] rounded-2xl lg:rounded-3xl overflow-hidden bg-gris-case CardService"
       >
         <div className="h-[1.5rem] lg:h-[5rem] w-auto">
           <Image
@@ -31,7 +31,7 @@ export default function Services() {
       </Link>
       <Link
         href="/surete"
-        className="flex px-3 sm:flex-col justify-center items-center gap-[0.5rem] sm:gap-[0.2rem] lg:gap-[1rem] sm:flex-[2] lg:flex-[2] h-[3.5rem] sm:h-[6rem] lg:h-[10rem] w-[48%] rounded-2xl lg:rounded-3xl overflow-hidden bg-gris-case"
+        className="flex px-3 sm:flex-col justify-center items-center gap-[0.5rem] sm:gap-[0.2rem] lg:gap-[1rem] sm:flex-[2] lg:flex-[2] h-[3.5rem] sm:h-[6rem] lg:h-[10rem] w-[48%] rounded-2xl lg:rounded-3xl overflow-hidden bg-gris-case CardService"
       >
         <div className="h-[1.5rem] lg:h-[5rem] w-auto">
           <Image
@@ -48,7 +48,7 @@ export default function Services() {
       </Link>
       <Link
         href="/surete"
-        className="flex px-3 sm:flex-col justify-center items-center gap-[0.5rem] sm:gap-[0.2rem] lg:gap-[1rem] sm:flex-[2] lg:flex-[2] h-[3.5rem] sm:h-[6rem] lg:h-[10rem] w-[48%] rounded-2xl lg:rounded-3xl overflow-hidden bg-gris-case"
+        className="flex px-3 sm:flex-col justify-center items-center gap-[0.5rem] sm:gap-[0.2rem] lg:gap-[1rem] sm:flex-[2] lg:flex-[2] h-[3.5rem] sm:h-[6rem] lg:h-[10rem] w-[48%] rounded-2xl lg:rounded-3xl overflow-hidden bg-gris-case CardService"
       >
         <div className="h-[1.5rem] lg:h-[5rem] w-auto">
           <Image
@@ -65,18 +65,18 @@ export default function Services() {
       </Link>
       <Link
         href="/surete"
-        className="flex px-3 sm:flex-col justify-center items-center gap-[0.5rem] sm:gap-[0.2rem] lg:gap-[1rem] sm:flex-[2] lg:flex-[2] h-[3.5rem] sm:h-[6rem] lg:h-[10rem] w-[48%] rounded-2xl lg:rounded-3xl overflow-hidden bg-gris-case"
+        className="flex px-3 sm:flex-col justify-center items-center gap-[0.5rem] sm:gap-[0.2rem] lg:gap-[1rem] sm:flex-[2] lg:flex-[2] h-[3.5rem] sm:h-[6rem] lg:h-[10rem] w-[48%] rounded-2xl lg:rounded-3xl overflow-hidden bg-gris-case CardService"
       >
         <div className="h-[1.5rem] lg:h-[5rem] w-auto">
           <Image
-            className="w-auto h-[1.5rem] object-contain mx-auto lg:w-auto lg:h-[5rem]"
+            className="w-auto h-[1.5rem] object-contain mx-auto lg:w-auto lg:h-[5rem] Icon"
             src="/Logo/conception.png"
             width={500}
             height={500}
             alt="Technicien électricien travaillant dans un standard de fusibles et utilisant une tablette"
           />
         </div>
-        <h2 className=" font-mPlusBold text-white text-center text-[0.8rem] lg:text-[1.5rem]">
+        <h2 className=" font-mPlusBold text-white text-center text-[0.8rem] lg:text-[1.5rem] Icon">
           Plan
         </h2>
       </Link>

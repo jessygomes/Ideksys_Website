@@ -23,6 +23,10 @@ const config: Config = {
         mPlusBlack: ["MPLUS1p-Black", "sans-serif"],
         mPlusBold: ["MPLUS1p-Bold", "sans-serif"],
       },
+      boxShadow: {
+        shadowblue:
+          "0 0 8px #4553A4, inset 0 0 8px #4553A4, 0 0 10px #4553A4, inset 0 0 16px #4553A4, 0 0 32px #4553A4, inset 0 0 32px #4553A4",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
