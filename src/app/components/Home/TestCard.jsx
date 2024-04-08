@@ -23,7 +23,7 @@ export function TestCard() {
                 className="w-full flex flex-col justify-center items-center h-[10rem] lg:h-[14rem]"
               >
                 <Image
-                  src="/Logo/surete.png"
+                  src="/icons/surete.png"
                   height="1000"
                   width="1000"
                   className="h-70 w-auto h-[4rem] object-contain mx-auto lg:w-auto lg:h-[10rem] Icon"
@@ -51,7 +51,7 @@ export function TestCard() {
                 className="w-full flex flex-col justify-center items-center gap-[0.5rem] h-[10rem] lg:h-[14rem] overflow-hidden"
               >
                 <Image
-                  src="/Logo/incendie.png"
+                  src="/icons/incendie.png"
                   height="1000"
                   width="1000"
                   className="h-70 w-auto h-[4rem] object-contain mx-auto lg:w-auto lg:h-[10rem] Icon"
@@ -79,10 +79,10 @@ export function TestCard() {
                 className="w-full flex flex-col justify-center items-center gap-[0.5rem] h-[10rem] lg:h-[14rem] overflow-hidden"
               >
                 <Image
-                  src="/Logo/eclairage.png"
+                  src="/icons/eclairage.png"
                   height="1000"
                   width="1000"
-                  className="h-70 rounded-md  w-auto h-[4rem] object-contain mx-auto lg:w-auto lg:h-[10rem] Icon"
+                  className="h-70 rounded-md w-auto h-[4rem] object-contain mx-auto lg:w-auto lg:h-[10rem] Icon"
                   alt="thumbnail"
                 />
               </CardItem>

@@ -26,7 +26,7 @@
 
 .Card:hover .Icon {
   transition: all 0.3s ease-in-out;
-  filter: drop-shadow(0px 0px 0.5rem #ffffff);
+  filter: drop-shadow(0px 0px 0.2rem #ffffff);
 }
 #surete:hover #sureteText {
   transition: all 0.5s ease-in-out;

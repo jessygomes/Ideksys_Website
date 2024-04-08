@@ -19,7 +19,7 @@ export default function Services() {
         <div className="h-[1.5rem] lg:h-[5rem] w-auto">
           <Image
             className="w-auto h-[1.5rem] object-contain mx-auto lg:w-auto lg:h-[5rem]"
-            src="/Logo/installation.png"
+            src="/icons/installation.png"
             width={500}
             height={500}
             alt="Technicien électricien travaillant dans un standard de fusibles et utilisant une tablette"
@@ -36,7 +36,7 @@ export default function Services() {
         <div className="h-[1.5rem] lg:h-[5rem] w-auto">
           <Image
             className="w-auto h-[1.5rem] object-contain mx-auto lg:w-auto lg:h-[5rem]"
-            src="/Logo/depannage.png"
+            src="/icons/depannage.png"
             width={500}
             height={500}
             alt="Technicien électricien travaillant dans un standard de fusibles et utilisant une tablette"
@@ -53,7 +53,7 @@ export default function Services() {
         <div className="h-[1.5rem] lg:h-[5rem] w-auto">
           <Image
             className="w-auto h-[1.5rem] object-contain mx-auto lg:w-auto lg:h-[5rem]"
-            src="/Logo/maintenace.png"
+            src="/icons/maintenance.png"
             width={500}
             height={500}
             alt="Technicien électricien travaillant dans un standard de fusibles et utilisant une tablette"
@@ -70,7 +70,7 @@ export default function Services() {
         <div className="h-[1.5rem] lg:h-[5rem] w-auto">
           <Image
             className="w-auto h-[1.5rem] object-contain mx-auto lg:w-auto lg:h-[5rem] Icon"
-            src="/Logo/conception.png"
+            src="/icons/conception.png"
             width={500}
             height={500}
             alt="Technicien électricien travaillant dans un standard de fusibles et utilisant une tablette"
