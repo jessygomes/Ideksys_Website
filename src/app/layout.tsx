@@ -18,13 +18,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr" className="bg-noir-fond">
-      <div className="fixed top-0 z-30 w-full flex justify-center">
-        <Navbar />
-      </div>
-      <body className="h-full">{children}</body>
-      <div className="mt-[3rem]">
-        <Footer />
-      </div>
+      <body className="h-full">
+        {children}
+        <div className="fixed top-0 z-30 w-full flex justify-center">
+          <Navbar />
+        </div>
+        <div className="mt-[3rem]">
+          <Footer />
+        </div>
+      </body>
     </html>
   );
 }

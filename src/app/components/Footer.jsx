@@ -13,7 +13,7 @@ export default function Footer() {
   return (
     <div>
       <footer className="flex flex-wrap lg:flex-row px-[0.5rem] lg:px-[1rem] gap-[0.5rem] lg:gap-[1rem]">
-        <div className="flex flex-col justify-center items-center gap-[0.5rem] lg:gap-[1rem] h-[10rem] sm:h-[15rem] lg:h-[18rem] sm:flex-1 w-full rounded-2xl lg:rounded-3xl overflow-hidden bg-gris-case">
+        <div className="flex flex-col justify-center items-center gap-[0.5rem] lg:gap-[1rem] h-[10rem] sm:h-[15rem] lg:h-[18rem] sm:flex-1 w-full rounded-2xl lg:rounded-3xl overflow-hidden bg-gradient-to-r from-gris-case to-zinc-800">
           <div className="flex justify-center items-center gap-[1rem]">
             <p className=" font-mPlusRegular text-white text-[0.8rem]">
               Télécharger notre brochure
@@ -59,7 +59,7 @@ export default function Footer() {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center gap-[0.5rem] lg:gap-[1rem] h-[10rem] sm:h-[15rem] lg:h-[18rem] sm:flex-1 w-full rounded-2xl lg:rounded-3xl overflow-hidden bg-gris-case">
+        <div className="flex flex-col justify-center items-center gap-[0.5rem] lg:gap-[1rem] h-[10rem] sm:h-[15rem] lg:h-[18rem] sm:flex-1 w-full rounded-2xl lg:rounded-3xl overflow-hidden bg-gradient-to-r from-gris-case to-zinc-800">
           <div className="h-[3rem] sm:h-[4.5rem] lg:h-[6rem] w-auto">
             <Image
               className="w-auto h-[3rem] object-cover mx-auto sm:h-[4.5rem] lg:w-auto lg:h-[6rem]"
@@ -74,7 +74,7 @@ export default function Footer() {
             01.09.09.09.09 <br /> Mail : ideksys@contact.fr
           </p>
         </div>
-        <div className="flex flex-row sm:flex-col justify-center items-center gap-[1rem] lg:gap-[1rem] h-[10rem] sm:h-[15rem] lg:h-[18rem] sm:flex-1 w-full rounded-2xl lg:rounded-3xl overflow-hidden bg-gris-case">
+        <div className="flex flex-row sm:flex-col justify-center items-center gap-[1rem] lg:gap-[1rem] h-[10rem] sm:h-[15rem] lg:h-[18rem] sm:flex-1 w-full rounded-2xl lg:rounded-3xl overflow-hidden bg-gradient-to-r from-gris-case to-zinc-800">
           <div className="text-center">
             <p className="text-white font-mPlusBlack text-[0.8rem]">
               PLAN DU SITE
