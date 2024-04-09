@@ -41,7 +41,7 @@ export function TestCard() {
         </Link>
 
         <Link
-          href="securite-incendie"
+          href="/nos-expertises/securite-incendie"
           className="flex flex-1 flex-col h-[15rem] lg:h-[18rem] w-full"
         >
           <CardContainer className="inter-var w-full">
@@ -69,7 +69,7 @@ export function TestCard() {
         </Link>
 
         <Link
-          href="eclairage-de-securite"
+          href="/nos-expertises/eclairage-de-securite"
           className="flex flex-1 flex-col h-[15rem] lg:h-[18rem] w-full"
         >
           <CardContainer className="inter-var w-full ">

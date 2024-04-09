@@ -16,7 +16,7 @@ export default function Incendie() {
             height="1000"
             width="1000"
             className="h-70 w-auto h-[4rem] object-contain mx-auto lg:w-auto lg:h-[6rem] Icon"
-            alt="thumbnail"
+            alt="Icône incendie"
           />
         </div>
         <h1 className="text-white font-mPlusBold uppercase tracking-widest text-[1.5rem] lg:text-[3rem] text-center my-[0.5rem]">
