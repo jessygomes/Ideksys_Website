@@ -13,11 +13,11 @@ export function TestCard() {
       </h1>
       <div className=" flex lg:flex-row px-[0.5rem] lg:px-[1rem] gap-[0.5rem] lg:gap-[1rem] ">
         <Link
-          href="/surete"
+          href="/nos-expertises/surete"
           className="flex flex-1 flex-col h-[15rem] lg:h-[18rem] w-full Card"
         >
           <CardContainer className="inter-var w-full">
-            <CardBody className="flex flex-col group/card w-full sm:w-auto h-[15rem] lg:h-[18rem] flex-grow rounded-2xl lg:rounded-3xl bg-bleu-surete">
+            <CardBody className="flex flex-col group/card w-full sm:w-auto h-[15rem] lg:h-[18rem] flex-grow rounded-2xl lg:rounded-3xl bg-gradient-to-r from-bleu-surete to-blue-900">
               <CardItem
                 translateZ="100"
                 className="w-full flex flex-col justify-center items-center h-[10rem] lg:h-[14rem]"
@@ -45,7 +45,7 @@ export function TestCard() {
           className="flex flex-1 flex-col h-[15rem] lg:h-[18rem] w-full"
         >
           <CardContainer className="inter-var w-full">
-            <CardBody className="flex flex-col group/card w-full sm:w-auto h-[15rem] lg:h-[18rem] flex-grow rounded-2xl lg:rounded-3xl bg-rouge-incendie Card">
+            <CardBody className="flex flex-col group/card w-full sm:w-auto h-[15rem] lg:h-[18rem] flex-grow rounded-2xl lg:rounded-3xl bg-gradient-to-r from-rouge-incendie to-red-900 Card">
               <CardItem
                 translateZ="100"
                 className="w-full flex flex-col justify-center items-center gap-[0.5rem] h-[10rem] lg:h-[14rem] overflow-hidden"
@@ -73,7 +73,7 @@ export function TestCard() {
           className="flex flex-1 flex-col h-[15rem] lg:h-[18rem] w-full"
         >
           <CardContainer className="inter-var w-full ">
-            <CardBody className="flex flex-col group/card w-full sm:w-auto h-[15rem] lg:h-[18rem] flex-grow rounded-2xl lg:rounded-3xl bg-vert-securite Card">
+            <CardBody className="flex flex-col group/card w-full sm:w-auto h-[15rem] lg:h-[18rem] flex-grow rounded-2xl lg:rounded-3xl bg-gradient-to-r from-vert-securite to-green-900 Card">
               <CardItem
                 translateZ="100"
                 className="w-full flex flex-col justify-center items-center gap-[0.5rem] h-[10rem] lg:h-[14rem] overflow-hidden"

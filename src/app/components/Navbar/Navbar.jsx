@@ -12,20 +12,22 @@ const itemNavbar = [
   },
   {
     text: "Nos Expertises",
+    link: "/nos-expertises",
     subItems: [
       {
         title: "Sûreté",
-        link: "/surete",
+        link: "/nos-expertises/surete",
       },
       {
         title: "Sécurité Incendie",
-        link: "/securite-incendie",
+        link: "/nos-expertises/securite-incendie",
       },
       {
         title: "Eclairage de sécurité",
-        link: "/eclairage-de-securite",
+        link: "/nos-expertises/eclairage-de-securite",
       },
     ],
+    isActive: (pathname) => pathname.startsWith("/nos-expertises"),
   },
   {
     text: "Actualités",
@@ -39,10 +41,10 @@ const itemNavbar = [
     text: "Contactez-nous",
     link: "/contactez-nous",
   },
-  {
-    text: "Login",
-    link: "/api/auth/signin",
-  },
+  // {
+  //   text: "Login",
+  //   link: "/api/auth/signin",
+  // },
 ];
 
 export default function Navbar() {
@@ -121,10 +123,9 @@ export default function Navbar() {
           }`}
         >
           {itemNavbar.map((item, index) => {
-            const active =
-              item.link === "/"
-                ? pathname === "/"
-                : pathname.startsWith(item.link);
+            const active = item.isActive
+              ? item.isActive(pathname)
+              : pathname === item.link;
             return (
               <div
                 key={index}
@@ -160,6 +161,7 @@ export default function Navbar() {
                           key={subIndex}
                           href={subItem.link}
                           className={styles.dropdownItem}
+                          onClick={() => handleClick()}
                         >
                           {subItem.title}
                         </Link>
