@@ -53,7 +53,7 @@ export default function SavoirFaire() {
           </p>
         </article>
       </div>
-      <p className="text-center text-[1.5rem] text-white font-mPlusRegular mt-[3rem]">
+      <p className="text-center text-[1.5rem] text-rouge-incendie font-mPlusRegular mt-[3rem]">
         CHEZ IDEKSYS, “petite phrase marketing ou autre...”
       </p>
     </section>
