@@ -133,7 +133,7 @@ export default function Navbar() {
                   if (index === 1) {
                     setIsFirstItemClicked(!isFirstItemClicked);
                   } else if (!item.subItems) {
-                    setNavActive(false);
+                    handleClick();
                   }
                 }}
                 onMouseEnter={() => setActiveIndex(index)}

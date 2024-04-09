@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Nos expertises en sécurité incendie chez Ideksys",
 };
 
-export default function Surete() {
+export default function Incendie() {
   return (
     <section className=" mt-20 lg:mt-[7rem]">
       <div className="flex flex-col gap-[1rem] lg:gap-[2rem] mx-[0.5rem] lg:mx-[1rem] rounded-2xl lg:rounded-3xl bg-gradient-to-r from-rouge-incendie to-red-900 ">
@@ -19,7 +19,7 @@ export default function Surete() {
             alt="thumbnail"
           />
         </div>
-        <h1 className="text-white font-mPlusBold uppercase tracking-widest text-[2rem] lg:text-[3rem] text-center my-[0.5rem]">
+        <h1 className="text-white font-mPlusBold uppercase tracking-widest text-[1.5rem] lg:text-[3rem] text-center my-[0.5rem]">
           sécurité incendie
         </h1>
       </div>
