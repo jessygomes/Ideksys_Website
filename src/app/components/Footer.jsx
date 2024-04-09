@@ -79,17 +79,17 @@ export default function Footer() {
             <p className="text-white font-mPlusBlack text-[0.8rem]">
               PLAN DU SITE
             </p>
-            <Link className="" href="/surete">
+            <Link className="" href="/nos-expertises/surete">
               <p className=" font-mPlusRegular text-white text-[0.8rem] hover:text-bleu-surete">
                 Sûreté
               </p>
             </Link>
-            <Link className="" href="/securité-incendie">
+            <Link className="" href="/nos-expertises/securité-incendie">
               <p className=" font-mPlusRegular text-white text-[0.8rem] hover:text-rouge-incendie">
                 Sécurité Incendie
               </p>
             </Link>
-            <Link className="" href="/eclairage-de-securite">
+            <Link className="" href="/nos-expertises/eclairage-de-securite">
               <p className=" font-mPlusRegular text-white text-[0.8rem] hover:text-vert-securite">
                 Eclairage de sécurité
               </p>
