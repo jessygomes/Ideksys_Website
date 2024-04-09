@@ -73,7 +73,7 @@ export function TestCard() {
           className="flex flex-1 flex-col h-[15rem] lg:h-[18rem] w-full"
         >
           <CardContainer className="inter-var w-full ">
-            <CardBody className="flex flex-col group/card w-full sm:w-auto h-[15rem] lg:h-[18rem] flex-grow rounded-2xl lg:rounded-3xl bg-gradient-to-r from-vert-securite to-green-900 Card">
+            <CardBody className="flex flex-col px-[0.5rem] group/card w-full sm:w-auto h-[15rem] lg:h-[18rem] flex-grow rounded-2xl lg:rounded-3xl bg-gradient-to-r from-vert-securite to-green-900 Card">
               <CardItem
                 translateZ="100"
                 className="w-full flex flex-col justify-center items-center gap-[0.5rem] h-[10rem] lg:h-[14rem] overflow-hidden"
