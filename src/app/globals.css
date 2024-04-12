@@ -40,5 +40,6 @@
 @media screen and (max-width: 800px) {
   .Card .Icon {
     filter: drop-shadow(0px 0px 0.2rem #ffffff);
+    /* color: #e1bf02; */
   }
 }
