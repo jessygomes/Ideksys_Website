@@ -23,6 +23,22 @@ export default function Propos() {
           à propos de nous
         </h1>
       </div>
+      <div className="flex flex-col gap-[0.5rem] lg:gap-[2rem] mt-[3rem] w-full px-[0.5rem] lg:px-[15rem]">
+        <p className="text-white font-mPlusLight">
+          Créé au début de l&apos;année 2021, IDEKSYS est une société
+          spécialisée en électricité, courant faible situé à Evry dans
+          l&apos;Essonne (91). Nous excellons dans la conception et la
+          réalisation d&apos;installations ainsi que de la maintenance, en
+          garantissant une conformité des normes acutelles.
+        </p>
+        <p className="text-white font-mPlusLight">
+          Notre expertise s&apos;étend du secteur tertiaire, industriel et
+          public. Fort de nos engagements envers l&apos;excellence, nous sommes
+          prêts à répondre à vos besoins en assurant les solutions suivantes :
+          Sûreté, Système de sécurité incendie, Eclairage de sécurité et
+          Installation électrique
+        </p>
+      </div>
     </section>
   );
 }

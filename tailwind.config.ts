@@ -14,6 +14,7 @@ const config: Config = {
         "bleu-surete": "#4553A4",
         "rouge-incendie": "#DF0A14",
         "vert-securite": "#009245",
+        "jaune-elec": "#e1bf02",
         "blanc-fond": "#D9D9D9",
         "grisclaire-case": "#B3B3B3",
       },

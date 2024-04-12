@@ -26,6 +26,10 @@ const itemNavbar = [
         title: "Eclairage de sécurité",
         link: "/nos-expertises/eclairage-de-securite",
       },
+      {
+        title: "Installation électrique",
+        link: "/nos-expertises/installation-electrique",
+      },
     ],
     isActive: (pathname) => pathname.startsWith("/nos-expertises"),
   },
