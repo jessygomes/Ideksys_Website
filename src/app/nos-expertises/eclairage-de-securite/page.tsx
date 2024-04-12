@@ -23,12 +23,11 @@ export default function Eclairage() {
           éclairage de sécurité
         </h1>
       </div>
-      <div className="flex flex-col gap-[3rem] lg:gap-[3rem] mt-[3rem] w-full px-[1rem] sm:px-[5rem] lg:px-[15rem]">
+
+      {/* PARTIE 1 */}
+      <div className="flex flex-col gap-[3rem] lg:gap-[3rem] mt-[3rem] w-full px-[0.5rem] sm:px-[5rem] lg:px-[15rem] 2xl:px-[20rem]">
         <div className="flex flex-col gap-[1rem]">
           <div className="flex flex-col gap-[1rem]">
-            <h2 className="text-white font-mPlusBold text-[1.2rem] lg:text-[1.5rem] uppercase">
-              Protégez sans délai
-            </h2>
             <p className="text-white font-mPlusLight">
               Assurez la conformité de votre installation en mettant aux normes
               l&apos;éclairage de sécurité avec nos équipes spécialisées.
@@ -76,7 +75,7 @@ export default function Eclairage() {
                     src="/icons/baes.png"
                     width={500}
                     height={500}
-                    alt="Technicien électricien travaillant dans un standard de fusibles et utilisant une tablette"
+                    alt="Bloc de sécurité"
                   />
                 </div>
               </div>
@@ -96,7 +95,7 @@ export default function Eclairage() {
                     src="/icons/eas.png"
                     width={500}
                     height={500}
-                    alt="Technicien électricien travaillant dans un standard de fusibles et utilisant une tablette"
+                    alt="Espace d'attente sécurisé"
                   />
                 </div>
               </div>
@@ -114,11 +113,21 @@ export default function Eclairage() {
           </div>
         </div>
 
+        {/* PARTIE 2 */}
         <div className="flex flex-col lg:flex-row gap-[1rem]">
-          <div className="flex flex-col gap-[1rem]">
-            <h2 className="text-white font-mPlusBold text-[1.2rem] lg:text-[1.5rem] uppercase">
-              Priorisez-vous la sécurité avant tout ?
-            </h2>
+          <div className="flex flex-col gap-[1rem] w-full">
+            <div
+              className="flex px-3 sm:flex-col justify-center items-center w-full gap-[1rem] sm:gap-[0.2rem] lg:gap-[1rem] h-[7rem] sm:h-[6rem] lg:h-[10rem] rounded-2xl lg:rounded-3xl overflow-hidden bg-gradient-to-r from-gris-case to-zinc-800  hover:shadow-2xl CardService"
+              style={{
+                backgroundImage: "url('/images/firee.jpeg')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
+            >
+              <h2 className="text-white text-center font-mPlusBold text-[1.5rem] lg:text-[2rem] uppercase">
+                Priorisez-vous la sécurité avant tout ?
+              </h2>
+            </div>
             <p className="text-white font-mPlusLight">
               L&apos;éclairage dédié à la sécurité est un élément clé pour
               assurer la protection des établissements recevant du public.
@@ -147,8 +156,16 @@ export default function Eclairage() {
           </div>
         </div>
 
+        {/* PARTIE 3 */}
         <div className="flex flex-col gap-[1rem]">
-          <div className="flex px-3 sm:flex-col justify-center items-center w-full gap-[1rem] sm:gap-[0.2rem] lg:gap-[1rem] h-[5.5rem] sm:h-[6rem] lg:h-[10rem] rounded-2xl lg:rounded-3xl overflow-hidden bg-gradient-to-r from-vert-securite to-green-900  hover:shadow-2xl CardService">
+          <div
+            className="flex px-3 lg:px-[5rem] justify-center items-center w-full gap-[1rem] sm:gap-[0.2rem] lg:gap-[1rem] h-[7rem] sm:h-[6rem] lg:h-[10rem] rounded-2xl lg:rounded-3xl overflow-hidden bg-gradient-to-r from-gris-case to-zinc-800 hover:shadow-2xl CardService"
+            style={{
+              backgroundImage: "url('/images/secsec.jpg')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+          >
             <div className="h-[3rem] lg:h-[5rem] w-auto">
               <Image
                 className="w-auto h-[3rem] object-contain mx-auto lg:w-auto lg:h-[5rem]"
@@ -158,13 +175,11 @@ export default function Eclairage() {
                 alt="Technicien électricien travaillant dans un standard de fusibles et utilisant une tablette"
               />
             </div>
-            <h2 className=" font-mPlusBold text-white lg:text-[1.5rem]">
-              Maintenance
+            <h2 className="text-white font-mPlusBold text-[1.5rem] lg:text-[2rem] uppercase">
+              La maintenance, la clé de la sécurité
             </h2>
           </div>
-          <h2 className="text-white font-mPlusBold text-[1.2rem] lg:text-[1.5rem] uppercase">
-            La maintenance, la clé de la sécurité
-          </h2>
+          <h2 className="text-white font-mPlusBold text-[1.2rem] lg:text-[1.5rem] uppercase"></h2>
           <h3 className="text-white font-mPlusBold text-[1rem] lg:text-[1.2rem]">
             Vérification par l&apos;exploitant
           </h3>
@@ -201,19 +216,21 @@ export default function Eclairage() {
           </ul>
         </div>
 
+        {/* PARTIE 4 */}
         <div className="flex flex-col gap-[1rem]">
           <div
-            className="flex px-3 sm:flex-col justify-center items-center w-full gap-[0.5rem] sm:gap-[0.2rem] lg:gap-[1rem] h-[5.5rem] sm:h-[6rem] lg:h-[10rem] rounded-2xl lg:rounded-3xl overflow-hidden bg-gradient-to-r from-vert-securite to-green-900  hover:shadow-2xl CardService"
+            className="flex px-3 sm:flex-col justify-center items-center w-full gap-[1rem] sm:gap-[0.2rem] lg:gap-[1rem] h-[7rem] sm:h-[6rem] lg:h-[10rem] rounded-2xl lg:rounded-3xl overflow-hidden bg-gradient-to-r from-gris-case to-zinc-800  hover:shadow-2xl CardService"
             style={{
-              backgroundImage: "url('/images/signaletique.jpg')",
+              backgroundImage: "url('/images/baesimg.png')",
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}
-          ></div>
-          <h2 className="text-white font-mPlusBold text-[1rem] lg:text-[1.5rem] uppercase">
-            Les dangers pour l&apos;établissements en cas de BAES défaillants ou
-            manquants
-          </h2>
+          >
+            <h2 className="text-white text-center font-mPlusBold text-[1.5rem] lg:text-[2rem] uppercase">
+              Les dangers pour l&apos;établissement
+            </h2>
+          </div>
+          <h2 className="text-white font-mPlusBold text-[1rem] lg:text-[1.5rem] uppercase"></h2>
           <h3 className="text-white font-mPlusBold text-[1rem] lg:text-[1.2rem]">
             Une conformité légale obligatoire
           </h3>

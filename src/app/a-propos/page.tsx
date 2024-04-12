@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function Propos() {
   return (
     <section className=" mt-20 lg:mt-[7rem]">
-      <div className="flex flex-col gap-[1rem] lg:gap-[2rem] mx-[0.5rem] lg:mx-[1rem] rounded-2xl lg:rounded-3xl bg-gradient-to-r from-vert-securite to-bleu-surete ">
+      <div className="flex flex-col gap-[1rem] lg:gap-[2rem] mx-[0.5rem] lg:mx-[1rem] rounded-2xl lg:rounded-3xl bg-gradient-to-r from-rouge-incendie to-jaune-elec ">
         <div className="w-full h-[3rem] lg:h-[4rem] mt-[1rem]">
           <Image
             src="/Logo/ideksys_white.png"
@@ -23,7 +23,7 @@ export default function Propos() {
           à propos de nous
         </h1>
       </div>
-      <div className="flex flex-col gap-[0.5rem] lg:gap-[2rem] mt-[3rem] w-full px-[0.5rem] lg:px-[15rem]">
+      <div className="flex flex-col gap-[0.5rem] lg:gap-[2rem] mt-[3rem] w-full px-[0.5rem] lg:px-[15rem] 2xl:px-[20rem]">
         <p className="text-white font-mPlusLight">
           Créé au début de l&apos;année 2021, IDEKSYS est une société
           spécialisée en électricité, courant faible situé à Evry dans
