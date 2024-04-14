@@ -27,7 +27,7 @@ export function TestCard() {
                   height="1000"
                   width="1000"
                   className="h-70 w-auto h-[4rem] object-contain mx-auto lg:w-auto lg:h-[10rem] Icon"
-                  alt="thumbnail"
+                  alt="Icone Sûreté"
                 />
               </CardItem>
               <CardItem
@@ -55,7 +55,7 @@ export function TestCard() {
                   height="1000"
                   width="1000"
                   className="h-70 w-auto h-[4rem] object-contain mx-auto lg:w-auto lg:h-[10rem] Icon"
-                  alt="thumbnail"
+                  alt="Icône Incendie"
                 />
               </CardItem>
               <CardItem
@@ -83,7 +83,7 @@ export function TestCard() {
                   height="1000"
                   width="1000"
                   className="h-70 rounded-md w-auto h-[4rem] object-contain mx-auto lg:w-auto lg:h-[10rem] Icon"
-                  alt="thumbnail"
+                  alt="Icône éclairage de sécurité"
                 />
               </CardItem>
               <CardItem
@@ -107,11 +107,11 @@ export function TestCard() {
                 className="w-full flex flex-col justify-center items-center h-[6rem] lg:h-[14rem]"
               >
                 <Image
-                  src="/icons/eclairage.png"
+                  src="/icons/elec.png"
                   height="1000"
                   width="1000"
                   className="h-70 rounded-md w-auto h-[4rem] object-contain mx-auto lg:w-auto lg:h-[10rem] Icon"
-                  alt="thumbnail"
+                  alt="Icone Installation Electrique"
                 />
               </CardItem>
               <CardItem
