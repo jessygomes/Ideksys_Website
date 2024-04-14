@@ -33,6 +33,7 @@
   filter: drop-shadow(0px 0px 0.5rem #ffffff);
 }
 .CardService:hover {
+  cursor: pointer;
   transition: all 0.3s ease-in-out;
   background-color: #817f7f;
 }

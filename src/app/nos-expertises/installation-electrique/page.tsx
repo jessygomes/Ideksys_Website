@@ -12,7 +12,7 @@ export default function Electrique() {
       <div className="flex flex-col gap-[1rem] lg:gap-[2rem] mx-[0.5rem] lg:mx-[1rem] rounded-2xl lg:rounded-3xl bg-gradient-to-r from-jaune-elec to-yellow-600">
         <div className="w-full h-[3rem] lg:h-[4rem] mt-[1rem]">
           <Image
-            src="/icons/eclairage.png"
+            src="/icons/elec.png"
             height="1000"
             width="1000"
             className="h-70 w-auto h-[4rem] object-contain mx-auto lg:w-auto lg:h-[6rem] Icon"

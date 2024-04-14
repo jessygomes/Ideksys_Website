@@ -53,7 +53,7 @@ export default function Contact() {
   return (
     <div className=" mt-[3rem] px-[1rem] flex flex-col sm:flex-wrap justify-center items-center gap-[2rem] sm:gap-[1.5rem] sm:px-[10rem] lg:px-[12rem]">
       <p className=" font-mPlusLight text-white text-center">
-        Vous avez des questions ou d&apos;autres demandes ? Contactez-nous !
+        Faites une demande de devis en remplissant le formulaire ci-dessous
       </p>
       <form
         onSubmit={handleSubmit}
