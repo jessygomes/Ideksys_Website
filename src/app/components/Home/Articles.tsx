@@ -1,8 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import posts from "../../../data/posts";
+import { getPosts } from "@/lib/data";
 
-export default function Articles() {
+export default async function Articles() {
+  const posts = await getPosts();
+
   return (
     <section>
       <h1 className="text-white font-mPlusBold uppercase tracking-widest text-[1.5rem] lg:text-[2rem] text-center my-[0.5rem]">
