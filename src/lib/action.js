@@ -16,6 +16,7 @@ export const addPost = async (formData) => {
     await newPost.save();
     //! Afin de revalider la page des actualités et les données en cache
     revalidatePath("/actualites");
+    revalidatePath("/add-article");
     console.log("saved to DB");
   } catch (error) {
     console.log(error);
@@ -32,6 +33,7 @@ export const deletePost = async (formData) => {
     console.log("deleted from DB");
     //! Afin de revalider la page des actualités et les données en cache
     revalidatePath("/actualites");
+    revalidatePath("/add-article");
     console.log("saved to DB");
   } catch (error) {
     console.log(error);
@@ -51,6 +53,7 @@ export const updatePost = async (formData) => {
     );
     //! Afin de revalider la page des actualités et les données en cache
     revalidatePath("/actualites");
+    revalidatePath("/add-article");
     return updatedPost;
   } catch (error) {
     console.log(error);

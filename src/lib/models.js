@@ -5,7 +5,7 @@ const articleSchema = new mongoose.Schema(
     title: {
       type: String,
       required: true,
-      maxlength: 25,
+      maxlength: 50,
       minlength: 3,
       trim: true,
     },
@@ -13,7 +13,7 @@ const articleSchema = new mongoose.Schema(
       type: String,
       required: true,
       unique: true,
-      maxlength: 25,
+      maxlength: 50,
       trim: true,
     },
     content: {

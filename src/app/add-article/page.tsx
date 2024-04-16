@@ -4,6 +4,7 @@ import ReactTextareaAutoSize from "react-textarea-autosize";
 import { addPost, deletePost } from "@/lib/action";
 import { getPosts } from "@/lib/data";
 import Link from "next/link";
+import { cache } from "react";
 // import FormData from "../types/blog";
 
 const inputClass =
@@ -11,6 +12,11 @@ const inputClass =
 
 export default async function Page() {
   const posts = await getPosts();
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    e.currentTarget.reset();
+  };
   // const [formData, setFormData] = useState({ title: "", content: "" });
 
   // const handleChange = (
@@ -33,7 +39,6 @@ export default async function Page() {
       </h1>
       <form
         action={addPost}
-        // onSubmit={handleSubmit}
         className="flex flex-col gap-[1rem] justify-center items-center "
       >
         <div>
