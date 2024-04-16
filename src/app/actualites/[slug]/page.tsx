@@ -20,7 +20,13 @@ export default async function ArticlePage({
         {post?.title}
       </h1>
       <p className="text-white font-mPlusLight bg-gris-case p-[1rem] lg:p-[2rem] rounded-2xl lg:rounded-3xl">
-        {post?.content}
+        {/* Permet de prendre en compte les saut de ligne */}
+        {post?.content.split("\n").map((line: string, i: number) => (
+          <span key={i}>
+            {line}
+            <br />
+          </span>
+        ))}
       </p>
       <div className="flex flex-wrap justify-center gap-[1rem]">
         <Link
